@@ -1,0 +1,24 @@
+{
+  "name": "baseball_team_search",
+  "version": "1.0.0",
+  "description": "Fooling around with baseball searches",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkalliance/baseball_team_search.git"
+  },
+  "author": "Lee Klusky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkalliance/baseball_team_search/issues"
+  },
+  "homepage": "https://github.com/lkalliance/baseball_team_search#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
