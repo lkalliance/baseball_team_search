@@ -1,3 +1,118 @@
 body {
     margin: 0 20px;
 }
+
+#search {
+    color: rgb(79, 140, 79);
+    background-color: rgb(163, 208, 163);
+    border: 2px solid green;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#search select {
+    border: 1px solid green;
+    background-color: rgb(132, 183, 132)
+}
+
+#search div {
+    position: relative;
+}
+
+#search div button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#search label {
+    font-size: .7em;
+    margin-bottom: .2rem;
+}
+
+#search select,
+#search option {
+    font-size: .7em;
+    padding: 4px 10px;
+}
+
+h2#teamTitle {
+    margin-top: 12px;
+}
+
+h2#teamTitle span {
+    font-size: .8em;
+}
+
+#roster .roster-section {
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+#roster td {
+    font-size: .9em;
+    padding-right: 20px;
+}
+
+
+.BS1.primary { color: #132650; }
+.BS1.secondary { color: #CF1141; }
+.NYN.primary { color: #002C74; }
+.NYN.secondary { color: #FF4A00; }
+.MON.primary{ color: #BA122B; }
+.MON.secondary { color: #14225A; }
+.FLO.primary { color: #0783C9; }
+.FLO.secondary { color: #F26533; }
+.WOR.primary { color: #D41244; }
+.WOR.secondary { color: #04529C; }
+.PT1.primary{ color: #000000; }
+.PT1.secondary { color: #FCB827; }
+.CH2.primary { color: #0E3386; }
+.CH2.secondary { color: #CC3433; }
+.CN2.primary { color: #C6011F; }
+.CN2.secondary { color: #000000; }
+.SL4.primary { color: #CD1141; }
+.SL4.secondary { color: #013162; }
+.SE1.primary { color: #162B48; }
+.SE1.secondary { color: #8D744A; }
+.TRN.primary { color: #000000; }
+.TRN.secondary { color: #FF4819; }
+.BR3.primary { color: #223B75; }
+.BR3.secondary { color: #E71D35; }
+.SDN.primary { color: #042C61; }
+.SDN.secondary { color: #042C61; }
+.COL.primary { color: #220F5D; }
+.COL.secondary { color: #8B8D8B; }
+.ARI.primary { color: #A71930; }
+.ARI.secondary { color: #000000; }
+.BLA.primary { color: #001C43; }
+.BLA.secondary { color: #001C43; }
+.TBA.primary { color: #092C5C; }
+.TBA.secondary { color: #95C0F7; }
+.TOR.primary { color: #0476BF; }
+.TOR.secondary { color: #ED2E24; }
+.BOS.primary { color: #002244; }
+.BOS.secondary { color: #C60C30; }
+.MLA.primary { color: #000000; }
+.MLA.secondary { color: #DF4601; }
+.WS1.primary { color: #042244; }
+.WS1.secondary { color: #B41234; }
+.KCA.primary { color: #002C74; }
+.KCA.secondary { color: #86724C; }
+.DET.primary { color: #062343; }
+.DET.secondary { color: #FC4614; }
+.CHA.primary{ color: #000000; }
+.CHA.secondary { color: #C4CED4; }
+.CLE.primary { color: #002144; }
+.CLE.secondary { color: #C6011F; }
+.SEA.primary { color: #0D2D56; }
+.SEA.secondary { color: #005B5C; }
+.PHA.primary { color: #003831; }
+.PHA.secondary { color: #EFB21E; }
+.LAA.primary { color: #B90020; }
+.LAA.secondary { color: #003263; }
+.WS2.primary { color: #BC032B; }
+.WS2.secondary { color: #002C73; }
+.HOU.primary { color: #002147; }
+.HOU.secondary { color: #D6492A; }

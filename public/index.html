@@ -10,33 +10,34 @@
 </head>
 <body>
     <header>
-        <h1>Look up your favorite team!</h1>
+        <h1>Search by Team</h1>
     </header>
 
-    <section id="search">
-        <form>
-            <select id="teamSelect">
-                <option value="0">Select a team</option>
-            </select>
-            <select id="yearSelect">
-                <option value="0">Select a year</option>
-            </select>
+    <section id="search" class="container">
+        <form class="row">
+            <div class="col-12 col-sm-7">
+                <label for="teamSelect" class="form-label">Select a team</label>
+                <select id="teamSelect" class="form-select">
+                </select>
+            </div>
+            <div class="col-6 col-sm-3">
+                <label for="yearSelect" class="form-label">Select a year</label>
+                <select id="yearSelect" class="form-select">
+                    <option value="0">----</option>
+                </select>
+            </div>
+            <div class="col-6 col-sm-2">
+                <button id="searchButton" class="btn btn-success btn-sm">Search</button>
+            </div>
         </form>
+    </section>
+    <section id="display">
+        <h2 id="teamTitle"></h2>
+        <table id="teamDisplay">
+            <tbody id="roster">
 
-        <div id="teamDisplay">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Pos.</th>
-                        <th>No.</th>
-                        <th>Player</th>
-                    </tr>
-                </thead>
-                <tbody id="roster">
-
-                </tbody>
-            </table>
-        </div>
+            </tbody>
+        </table>
     </section>
 
     <script src="./assets/scripts/jQuery_3_6_3_mini.js"></script>
