@@ -53,7 +53,24 @@ h2#teamTitle span {
 #roster td {
     font-size: .9em;
     padding-right: 20px;
+    position: relative;
 }
+
+#roster tr.have-card td {
+    font-weight: bold;
+}
+
+#roster button {
+    margin-left: 10px;
+    font-size: .75em;
+    line-height: .8em;
+    padding: 2px 4px;
+    position: absolute;
+    bottom: .1em;
+    left: 100%;
+}
+
+
 
 
 .BS1.primary { color: #132650; }
